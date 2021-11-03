@@ -15,7 +15,7 @@ def handle_add(books):
     except ValueError as ve:
         print('Eroare:', ve)
 
-    return prajituri
+    return books
 
 def handle_show_all(books):
     for book in books:
