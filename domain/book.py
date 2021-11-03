@@ -1,11 +1,14 @@
-# D, titlu carte, gen carte, preț, tip reducere client (none, silver, gold).
-def get_new_book (id: int, title: str,gen: str, price: float,discout: str):
-    book ={
+#Adăugare / ștergere / modificare vânzare: se efectuează pe bază de număr de vânzare / ID. O vânzare conține:
+# ID, titlu carte, gen carte, preț, tip reducere client (none, silver, gold).
+
+
+def add_new_books(id: int,title: str,gen: str, price: float,sale: str):
+    book = {
         "id": id,
         "title": title,
         "gen": gen,
         "price": price,
-        "discount": discout
+        "sale": sale
     }
     return book
 
@@ -26,15 +29,8 @@ def get_price(book):
     return book["price"]
 
 
-def get_discount(book):
-    return book["discount"]
+def get_sale(book):
+    return book["sale"]
 
-def to_string(book):
-    return "id: {}, nume: {}, gen: {}, pret: {}, discount: {}".format(
-        get_id(book),
-        get_nume(book),
-        get_clasa(book),
-        get_pret(book),
-        get_checkin(book),
-
-    )
+def get_book_string(book):
+    return f'cartea cu id-ul {get_id(book)},cu numele {get_title(book)},si genul {get_gen(book)},avand pretul {get_price(book)},si reducerea {get_sale(book)}'

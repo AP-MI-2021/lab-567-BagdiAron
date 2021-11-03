@@ -4,7 +4,7 @@ def get_new_book (id: int, title: str,gen: str, price: float,discout: str):
 
 
 def get_id(book):
-    return bookp[o]
+    return bookp[0]
 
 
 def get_title(book):
