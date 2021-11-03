@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56656693-306b-4ba0-8858-6fdb99f9298b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/ui2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logic/discount_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logic/gen_change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/book_store.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/book.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/book2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/crud.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/domain/book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/book2.py" beforeDir="false" afterPath="$PROJECT_DIR$/domain/book2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/logic/crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyvenv.cfg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
