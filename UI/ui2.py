@@ -1,7 +1,7 @@
-from domain.book import *
-from logic.crud import *
-from logic.gen_change import get_new_gen
-from logic.discount_type import get_discount
+from Domain.book import *
+from Logic.crud import *
+from Logic.gen_change import get_new_gen
+from Logic.discount_type import get_discount
 
 
 def run_ui2(books):

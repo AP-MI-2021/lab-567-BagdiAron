@@ -2,26 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56656693-306b-4ba0-8858-6fdb99f9298b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/ui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/ui2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logic/discount_type.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logic/gen_change.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_store.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/domain/book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/book2.py" beforeDir="false" afterPath="$PROJECT_DIR$/domain/book2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/logic/crud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logic/nr_titluri.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logic/ordonare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logic/pret_min.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/clc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_functionalitati.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/ui2.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/ui2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/book2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/book2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logic/crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/discount_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logic/discount_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/gen_change.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logic/gen_change.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,8 +41,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Msi\Desktop\bagdi_aron\lab-567-BagdiAron\tests" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -75,5 +87,17 @@
       <updated>1635942328160</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

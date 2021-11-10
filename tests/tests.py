@@ -1,39 +1,51 @@
-from domain.book import *
-from logic.crud import create,read,update
+from Domain.book2 import *
+from Logic.crud import *
+
 
 def get_data():
-    return[
-        add_new_books(1,'c1','d1',5,'s1'),
-        add_new_books(2,'c2','d2',10,'s2'),
-        add_new_books(3,'c3','d3',15,'s3'),
-        add_new_books(4,'c4','d4',20,'s4'),
-        add_new_books(5,'c5','d5',25,'s5')
+    return [
+        create_vanzare(1, "ion", "lectura", 100, "none"),
+        create_vanzare(2, "Baltag", "actiue", 70, "silver"),
+        create_vanzare(3, "Ana", "Drama", 20, "gold"),
+        create_vanzare(5, "Povesti", "lectura", 48, "none"),
     ]
 
-
 def test_create():
-    list = get_data()
-    new_book = add_new_books(6,'c6','d6',25,'s6')
-    new_list = create(list,6,'c6','d6',25,'s6')
-    assert len(new_list) == len(list)
-    assert new_book in new_list
+    list=get_data()
+    new_book =create_vanzare(6, "Baltagul", "camedie", 50, "none")
+    lista_noua=create(list,6 ,"Baltagul" ,"camedie" ,50 ,"none")
+    assert len(lista_noua)==len(list)+1
+    assert new_book in lista_noua
 
 
 def test_read():
-    list = get_data()
-    random_book = list[2]
-    assert read(list,get_id(random_book)) == random_book
-    assert read(list,None) ==  list
+    list=get_data()
+    random_book=list[2]
+    assert read(list,get_id(random_book))==random_book
 
 
 def test_update():
+    list=get_data()
+    new_book =create_vanzare(5, "Baltagul", "camedie", 51, "none")
+    lista_noua=update(list,new_book)
+    assert len(lista_noua) == len(list)
+
+
+def test_delete():
     list = get_data()
-    new_book = add_new_books(5,'c6','d6',25,'s6')
-    new_list = update(list,new_book)
-    assert len(new_list) == len(list)
-    assert new_book in new_list
+    id_delete=3
+    deleted_book=read(list,id_delete)
+    lista_noua=delete(list,id_delete)
+    assert len(lista_noua)==len(list)-1
+    assert deleted_book not in lista_noua
+    #print("test")
+
 
 def test_crud():
     test_create()
     test_read()
     test_update()
+    test_delete()
+
+
+test_crud()
